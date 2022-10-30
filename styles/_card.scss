@@ -1,0 +1,55 @@
+.container{
+    // border: 1px solid yellow; //temp
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: $grayish-blue;
+    width: 92%;
+    border-radius: 1rem;
+    max-width: 54rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    padding: 4rem 2rem 6.4rem 2rem;
+}
+.advice-id{
+    color: $neon-green;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    letter-spacing: 0.35rem;
+}
+.advice{
+    color: $light-cyan;
+    font-size: 2.35rem;
+    text-align: center;
+    margin-top: 2.5rem;
+    line-height: 141%;
+}
+
+
+.divider{
+    margin-top: 2.4rem;
+}
+.desktop{
+    display: none;
+}
+.btn{
+    background-color: $neon-green;
+    padding: 2rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%);
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0 0 2rem hsla(150,100%,66%,0.75);
+    }
+}
